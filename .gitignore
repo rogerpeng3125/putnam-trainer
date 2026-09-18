@@ -1,0 +1,8 @@
+node_modules/
+*.log
+
+# Audit intermediates are regenerable from content/. key.json is the answer key the
+# auditor must never see, so it deliberately does not live in git.
+audit/blinded.json
+audit/key.json
+audit/reconciled.json
